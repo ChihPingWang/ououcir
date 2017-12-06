@@ -1,5 +1,5 @@
 
-library(BMhyb)
+#library(BMhyb)
 #GlobalOptim<-function(NegLogLike,CovRes,precision=precision,p0=p0,regb=regb,n=n,G=G,distG=distG,one=one,response=response,predictor_1=predictor_1,predictor_2=predictor_2,dsm=dsm,model=model){
 GlobalOptim<-function(NegLogLike,CovRes,precision=precision,p0=p0,regb=regb,n=n,G=G,distG=distG,one=one,response=response,predictor= predictor,dsm=dsm,model=model){
   #names(free.parameters) <- c("alp", "bet", "sig", "xi", "b1", "b2", "alp_1", "alp_2", "alp_3", "th_1", "th_2", "sig_2")
